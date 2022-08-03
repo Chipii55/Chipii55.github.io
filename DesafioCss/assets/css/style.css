@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(../img/fondopagina.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header{
+    background-image: url(../img/header.png);
+    margin: 4rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 8rem;
+}
+
+.header h1, p{
+    text-align: center;
+    font-size: 2.5rem;
+    color: black;
+}
+
+.main img{
+    width: 25rem;
+    border: 0.2rem solid yellow;
+    border-radius: 0.4rem;
+    transition: box-shadow 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0 0.7rem 0.6rem black;
+}
+
+.main table{
+    width: 90%;
+    border: 0.3rem solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+}
+
+.main p{
+    font-size: 1.2rem;
+    color: white;
+}
+
+.main h2{
+    color: yellow;
+    padding: 3rem;
+}
+
+.footer{
+    background-color: black;
+    text-align: center;
+    padding: 1rem;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover{
+    color: blueviolet;
+}
